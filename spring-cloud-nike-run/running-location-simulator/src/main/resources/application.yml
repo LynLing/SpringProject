@@ -1,0 +1,11 @@
+server:
+  part:9005
+spring:
+  application:
+    name: running-location-simulator
+
+com:
+  lyn:
+    running:
+      location:
+        distribution:http://localhost:9006
