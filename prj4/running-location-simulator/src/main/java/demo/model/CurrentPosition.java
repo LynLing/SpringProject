@@ -11,8 +11,10 @@ public class CurrentPosition {
     private String runningId;
     private Point location;
     private RunnerStatus runnerStatus = RunnerStatus.NONE;
-    private double heading;
+    private Double speed;
+    private Double heading;
+
+    //@Nike Running
     private MedicalInfo medicalInfo;
 
-    public CurrentPosition(){}
 }

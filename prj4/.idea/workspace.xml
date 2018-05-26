@@ -7,6 +7,9 @@
     <ignored path="$PROJECT_DIR$/running-location-simulator/target/" />
     <ignored path="$PROJECT_DIR$/running-location-distribution/target/" />
     <ignored path="$PROJECT_DIR$/running-location-updater/target/" />
+    <ignored path="$PROJECT_DIR$/platform/target/" />
+    <ignored path="$PROJECT_DIR$/platform/running-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/platform/running-hystrix-dashboard/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +19,157 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/resources/application.yml">
+      <file leaf-file-name="LocationSimulatorRestApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="375">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#4823#0" expanded="true" />
+                <element signature="e#3007#3008#0" expanded="true" />
+                <element signature="e#3050#3051#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultPositionService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPositionService.java">
+      <file leaf-file-name="LocationSimulator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/task/LocationSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="3119">
+              <caret line="270" column="1" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4115#4116#0" expanded="true" />
+                <element signature="e#4150#4151#0" expanded="true" />
+                <element signature="e#6242#6243#0" expanded="true" />
+                <element signature="e#6275#6276#0" expanded="true" />
+                <element signature="e#6375#6376#0" expanded="true" />
+                <element signature="e#6414#6415#0" expanded="true" />
+                <element signature="e#6456#6457#0" expanded="true" />
+                <element signature="e#6495#6496#0" expanded="true" />
+                <element signature="e#6527#6528#0" expanded="true" />
+                <element signature="e#6565#6566#0" expanded="true" />
+                <element signature="e#6649#6650#0" expanded="true" />
+                <element signature="e#6682#6683#0" expanded="true" />
+                <element signature="e#6798#6799#0" expanded="true" />
+                <element signature="e#6842#6843#0" expanded="true" />
+                <element signature="e#6883#6884#0" expanded="true" />
+                <element signature="e#6920#6921#0" expanded="true" />
+                <element signature="e#6963#6964#0" expanded="true" />
+                <element signature="e#6995#6996#0" expanded="true" />
+                <element signature="e#7043#7044#0" expanded="true" />
+                <element signature="e#7078#7079#0" expanded="true" />
+                <element signature="e#7146#7147#0" expanded="true" />
+                <element signature="e#7197#7198#0" expanded="true" />
+                <element signature="e#7224#7225#0" expanded="true" />
+                <element signature="e#7249#7250#0" expanded="true" />
+                <element signature="e#7283#7284#0" expanded="true" />
+                <element signature="e#7311#7312#0" expanded="true" />
+                <element signature="e#7362#7363#0" expanded="true" />
+                <element signature="e#7406#7407#0" expanded="true" />
+                <element signature="e#7442#7443#0" expanded="true" />
+                <element signature="e#7475#7476#0" expanded="true" />
+                <element signature="e#7520#7521#0" expanded="true" />
+                <element signature="e#7555#7556#0" expanded="true" />
+                <element signature="e#7617#7618#0" expanded="true" />
+                <element signature="e#7665#7666#0" expanded="true" />
+                <element signature="e#7707#7708#0" expanded="true" />
+                <element signature="e#7744#7745#0" expanded="true" />
+                <element signature="e#7805#7806#0" expanded="true" />
+                <element signature="e#7857#7858#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentPosition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/CurrentPosition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedicalInfoUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/support/MedicalInfoUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedicalInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/MedicalInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GpsSimulatorRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/GpsSimulatorRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultPathService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PositionService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/PositionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultGpsSimulatorFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultGpsSimulatorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GpsSimulatorFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/GpsSimulatorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,18 +194,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/running-location-simulator/pom.xml" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/model/CurrentPosition.java" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/model/GpsSimulatorRequest.java" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/model/MedicalInfo.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/model/Point.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/model/PositionInfo.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/model/RunnerStatus.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/model/Leg.java" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/GpsSimulatorRequest.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/Leg.java" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/MedicalInfo.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/Point.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/PositionInfo.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/RunnerStatus.java" />
@@ -82,15 +215,36 @@
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/GpsSimulatorFactory.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultGpsSimulatorFactory.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/task/LocationSimulatorInstance.java" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/CurrentPosition.java" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/task/LocationSimulator.java" />
-        <option value="$PROJECT_DIR$/running-location-distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunnerPositionSource.java" />
-        <option value="$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java" />
         <option value="$PROJECT_DIR$/running-location-distribution/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/running-location-updater/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/running-location-updater/src/main/java/demo/RunningLocationUpdaterSink.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/resources/init-location.json" />
+        <option value="$PROJECT_DIR$/platform/pom.xml" />
+        <option value="$PROJECT_DIR$/platform/running-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/platform/running-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/platform/running-eureka-server/src/main/java/eurekademo/EurekaApplication.java" />
+        <option value="$PROJECT_DIR$/platform/running-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/running-location-simulator/pom.xml" />
+        <option value="$PROJECT_DIR$/running-location-distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/running-location-updater/src/main/java/demo/RunningLocationUpdaterApplication.java" />
+        <option value="$PROJECT_DIR$/running-location-updater/pom.xml" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPositionService.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java" />
+        <option value="$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/DirectionInput.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/SupplyLocation.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/PathService.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/GpsSimulatorRequest.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/support/MedicalInfoUtils.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/MedicalInfo.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/task/LocationSimulator.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/CurrentPosition.java" />
       </list>
     </option>
   </component>
@@ -133,6 +287,41 @@
             <path>
               <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
               <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
               <item name="running-location-simulator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,6 +353,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
@@ -192,7 +401,62 @@
               <item name="running-location-simulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-updater" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-updater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-updater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-updater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prj4" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-updater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,6 +513,10 @@
       <module name="running-location-distribution" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="demo.RunningLocationDistributionApplication" />
     </configuration>
+    <configuration name="RunningLocationUpdaterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="running-location-updater" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.RunningLocationUpdaterApplication" />
+    </configuration>
     <configuration name="SimulatorServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="running-location-simulator" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="demo.SimulatorServiceApplication" />
@@ -278,6 +546,7 @@
     <list>
       <item itemvalue="Spring Boot.SimulatorServiceApplication" />
       <item itemvalue="Spring Boot.RunningLocationDistributionApplication" />
+      <item itemvalue="Spring Boot.RunningLocationUpdaterApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -293,15 +562,17 @@
       <workItem from="1527294433097" duration="816000" />
       <workItem from="1527295327987" duration="143000" />
       <workItem from="1527295518310" duration="4348000" />
-      <workItem from="1527299965328" duration="396000" />
+      <workItem from="1527299965328" duration="11026000" />
+      <workItem from="1527358631530" duration="1774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5703000" />
+    <option name="totallyTimeSpent" value="18107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1282" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -323,7 +594,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21728595" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info id="Learn" order="2" />
@@ -344,60 +615,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/running-location-distribution/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/resources/init-location.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunnerPositionSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPositionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="101" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/PositionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/task/LocationSimulator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2265">
@@ -456,38 +673,7 @@
     <entry file="file://$PROJECT_DIR$/running-location-distribution/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-updater/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/GpsSimulatorRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/Leg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/MedicalInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
@@ -526,38 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/PathService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/support/NavUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/GpsSimulatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultGpsSimulatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -568,48 +726,265 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/running-location-distribution/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/CurrentPosition.java">
+    <entry file="file://$PROJECT_DIR$/running-location-updater/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-updater/src/main/java/demo/RunningLocationUpdaterSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/PositionService.java">
+    <entry file="file://$PROJECT_DIR$/platform/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-distribution/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/running-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/running-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/running-eureka-server/src/main/java/eurekademo/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/running-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunnerPositionSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-updater/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPositionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-distribution/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="49" column="65" lean-forward="true" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-updater/src/main/java/demo/RunningLocationUpdaterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/resources/init-location.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" column="3" selection-start-line="171" selection-start-column="3" selection-end-line="171" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/DirectionInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/SupplyLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/PathService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultGpsSimulatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/GpsSimulatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/GpsSimulatorRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/support/MedicalInfoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/MedicalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#4823#0" expanded="true" />
+            <element signature="e#3007#3008#0" expanded="true" />
+            <element signature="e#3050#3051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/CurrentPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -618,50 +993,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/task/LocationSimulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        <state relative-caret-position="3119">
+          <caret line="270" column="1" selection-start-line="270" selection-start-column="1" selection-end-line="270" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3546#3547#0" expanded="true" />
-            <element signature="e#3584#3585#0" expanded="true" />
+            <element signature="e#4115#4116#0" expanded="true" />
+            <element signature="e#4150#4151#0" expanded="true" />
+            <element signature="e#6242#6243#0" expanded="true" />
+            <element signature="e#6275#6276#0" expanded="true" />
+            <element signature="e#6375#6376#0" expanded="true" />
+            <element signature="e#6414#6415#0" expanded="true" />
+            <element signature="e#6456#6457#0" expanded="true" />
+            <element signature="e#6495#6496#0" expanded="true" />
+            <element signature="e#6527#6528#0" expanded="true" />
+            <element signature="e#6565#6566#0" expanded="true" />
+            <element signature="e#6649#6650#0" expanded="true" />
+            <element signature="e#6682#6683#0" expanded="true" />
+            <element signature="e#6798#6799#0" expanded="true" />
+            <element signature="e#6842#6843#0" expanded="true" />
+            <element signature="e#6883#6884#0" expanded="true" />
+            <element signature="e#6920#6921#0" expanded="true" />
+            <element signature="e#6963#6964#0" expanded="true" />
+            <element signature="e#6995#6996#0" expanded="true" />
+            <element signature="e#7043#7044#0" expanded="true" />
+            <element signature="e#7078#7079#0" expanded="true" />
+            <element signature="e#7146#7147#0" expanded="true" />
+            <element signature="e#7197#7198#0" expanded="true" />
+            <element signature="e#7224#7225#0" expanded="true" />
+            <element signature="e#7249#7250#0" expanded="true" />
+            <element signature="e#7283#7284#0" expanded="true" />
+            <element signature="e#7311#7312#0" expanded="true" />
+            <element signature="e#7362#7363#0" expanded="true" />
+            <element signature="e#7406#7407#0" expanded="true" />
+            <element signature="e#7442#7443#0" expanded="true" />
+            <element signature="e#7475#7476#0" expanded="true" />
+            <element signature="e#7520#7521#0" expanded="true" />
+            <element signature="e#7555#7556#0" expanded="true" />
+            <element signature="e#7617#7618#0" expanded="true" />
+            <element signature="e#7665#7666#0" expanded="true" />
+            <element signature="e#7707#7708#0" expanded="true" />
+            <element signature="e#7744#7745#0" expanded="true" />
+            <element signature="e#7805#7806#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunnerPositionSource.java">
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/PositionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/resources/init-location.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-distribution/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPositionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -717,7 +1098,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>running-location-simulator</last-edited>
+          <last-edited>eureka</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -28,7 +28,7 @@ public class DefaultGpsSimulatorFactory implements GpsSimulatorFactory {
     public LocationSimulator prepareGpsSimulator(GpsSimulatorRequest gpsSimulatorRequest) {
         final LocationSimulator locationSimulator = new LocationSimulator(gpsSimulatorRequest);
 
-        locationSimulator.setPositionService(positionService);
+        locationSimulator.setPositionInfoService(positionService);
         locationSimulator.setId(this.instanceCounter.incrementAndGet());
 
         final List<Point> points = NavUtils.decodePolyline(gpsSimulatorRequest.getPolyline());

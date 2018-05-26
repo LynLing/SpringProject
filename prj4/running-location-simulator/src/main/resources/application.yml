@@ -1,5 +1,5 @@
 server:
-  part:9005
+  port: 9005
 spring:
   application:
     name: running-location-simulator

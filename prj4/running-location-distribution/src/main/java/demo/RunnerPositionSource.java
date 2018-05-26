@@ -18,7 +18,8 @@ public class RunnerPositionSource {
 
     @Autowired
     private MessageChannel output;
-    @RequestMapping(params = "/api/locations", method = RequestMethod.POST)
+
+    @RequestMapping(path = "/api/locations", method = RequestMethod.POST)
     public void locations(@RequestBody String positionInfo) {
         log.info("Receiving currentPositionInfo from Simulator: " + positionInfo);
         this.output.send(MessageBuilder.withPayload(positionInfo).build());
